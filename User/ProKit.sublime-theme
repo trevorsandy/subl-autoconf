@@ -1,0 +1,47 @@
+[
+  {
+    // Hover tab state
+    "class": "tab_control",
+    "attributes": ["hover"],
+    "layer2.tint": [200, 220, 255]
+  },
+  {
+    // Hover tab state
+    "class": "tab_control",
+    "attributes": ["hover", "dirty"],
+    "layer2.tint": [255, 130, 130]
+  },
+  {
+    // Tab dirty
+    "class": "tab_control",
+    "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
+    "attributes": ["dirty"],
+    "layer0.tint": [255, 60, 20],
+    "layer1.tint": [255, 30, 0],
+    "content_margin": [10, 4, 4, 4]
+  },
+  {
+    // Tab labels
+    "class": "tab_label",
+    "attributes": ["dirty"],
+    "settings": ["highlight_modified_tabs"],
+    "fg": [255, 23, 0]
+  },
+  {
+    // Tab close button
+    "class": "tab_close_button",
+    "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
+    "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+    "content_margin": [0, 0],
+    "layer0.opacity": 0.0,
+    "layer1.opacity": 0.0
+  },
+  {
+    // Color folders in sidebar
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+    "settings": ["bold_folder_labels"],
+    "font.bold": false,
+    "color": [109, 156, 190]
+  }
+]

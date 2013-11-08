@@ -1,0 +1,5 @@
+{
+  "highlight_when_selection_is_empty": true,
+  "mark_occurrences_on_gutter": true,
+  "icon_type_on_gutter": "dot"
+}

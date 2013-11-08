@@ -1,0 +1,25 @@
+[
+  // Fix key bindings
+  { "keys": ["ctrl+alt+p"], "command": "insert", "args": {"characters": "&"} },
+  { "keys": ["ctrl+alt+x"], "command": "insert", "args": {"characters": "}"} },
+
+  // Comments
+  { "keys": ["ctrl+9"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["ctrl+shift+9"], "command": "toggle_comment", "args": { "block": true } },
+
+  // Indentation
+  { "keys": ["ctrl+alt+i", "s"], "command": "expand_tabs", "args": { "set_translate_tabs": true } },
+  { "keys": ["ctrl+alt+i", "t"], "command": "unexpand_tabs", "args": { "set_translate_tabs": true } },
+  { "keys": ["ctrl+alt+i", "1"], "command": "set_setting", "args": { "setting": "tab_size", "value": "1" } },
+  { "keys": ["ctrl+alt+i", "2"], "command": "set_setting", "args": { "setting": "tab_size", "value": "2" } },
+  { "keys": ["ctrl+alt+i", "4"], "command": "set_setting", "args": { "setting": "tab_size", "value": "4" } },
+
+  // Format
+  { "keys": ["ctrl+k", "ctrl+s"], "command": "format_sql" },
+
+  // Paste
+  { "keys": ["ctrl+v"], "command": "paste_and_indent" },
+  { "keys": ["shift+insert"], "command": "paste_and_indent" },
+  { "keys": ["ctrl+shift+v"], "command": "paste" },
+  { "keys": ["shift+control+insert"], "command": "paste" }
+]
