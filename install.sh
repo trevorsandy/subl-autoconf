@@ -8,6 +8,10 @@ else
   cd "$HOME/Library/Application Support/Sublime Text 3"
 fi
 
+if [ -r Packages ]; then
+  mv Packages Packages~
+fi
+
 hg clone https://bitbucket.org/efolio/sublime-text-3-config Packages
 cd Packages
 
