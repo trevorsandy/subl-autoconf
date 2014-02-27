@@ -2,10 +2,27 @@
 
 save=$(pwd)
 
-if [ "$OS" == 'Linux' ]; then
-  cd "$HOME/.config/sublime-text-3"
+platform='unknown'
+unamestr=`uname`
+if [[ "$unamestr" == 'Linux' ]]; then
+   platform='linux'
+elif [[ "$unamestr" == 'FreeBSD' ]]; then
+   platform='freebsd'
+fi
+
+if [[ $# == 0 ]]; then
+  $1='3'
+fi
+
+if [[ $platform == 'linux' ]]; then
+  cd "$HOME/.config/sublime-text-$1"
+elif [[ $platform == 'freebsd' ]]; then
+  cd "$HOME/.config/sublime-text-$1"
+elif [[ $OSTYPE == darwin* ]]; then
+  cd "$HOME/Library/Application Support/Sublime Text $1"
 else
-  cd "$HOME/Library/Application Support/Sublime Text 3"
+  echo 'Unknown OS'
+  exit 1
 fi
 
 if [ -r Packages ]; then
