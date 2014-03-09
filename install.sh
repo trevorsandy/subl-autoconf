@@ -15,15 +15,18 @@ if [[ $# == 0 ]]; then
 fi
 
 if [[ $platform == 'linux' ]]; then
-  cd "$HOME/.config/sublime-text-$1"
+  dir="$HOME/.config/sublime-text-$1"
 elif [[ $platform == 'freebsd' ]]; then
-  cd "$HOME/.config/sublime-text-$1"
+  dir="$HOME/.config/sublime-text-$1"
 elif [[ $OSTYPE == darwin* ]]; then
-  cd "$HOME/Library/Application Support/Sublime Text $1"
+  dir="$HOME/Library/Application Support/Sublime Text $1"
 else
   echo 'Unknown OS'
   exit 1
 fi
+
+mkdir -p $dir 2>/dev/null
+cd $dir
 
 if [ -r Packages ]; then
   mv Packages Packages~
