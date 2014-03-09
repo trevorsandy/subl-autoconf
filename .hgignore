@@ -3,3 +3,6 @@ User/ColorPicker
 Theme - Nexus
 SublimeCodeIntel
 PyV8
+^([^U])|(U[^s])|(Us[^e])|(Use[^r])|(User[^/])
+.cache
+.chback
