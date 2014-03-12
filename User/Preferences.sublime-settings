@@ -1,5 +1,24 @@
 {
 	"auto_indent": true,
+	"binary_file_patterns":
+	[
+		"bower_components/*",
+		"node_modules/*",
+		"public/*",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Theme - Nexus/Nexus.tmTheme",
@@ -8,6 +27,37 @@
 	"detect_slow_plugins": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".bundle",
+		".sass-cache"
+	],
 	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -28,8 +78,5 @@
 	"tab_size": 2,
 	"theme": "Nexus.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".bundle", ".sass-cache"],
-  "file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db"],
-  "binary_file_patterns": ["bower_components/*", "node_modules/*", "public/*", "*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"]
+	"trim_trailing_white_space_on_save": true
 }
