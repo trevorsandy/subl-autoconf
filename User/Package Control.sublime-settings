@@ -15,8 +15,6 @@
 		"Filter Lines",
 		"Format SQL",
 		"Jade",
-		"Jade Snippets",
-		"jQuery",
 		"JSHint Gutter",
 		"Markdown Extended",
 		"Markdown Preview",
@@ -41,9 +39,7 @@
 		"Toggle words",
 		"ToggleQuotes",
 		"TrailingSpaces",
-		"Twitter Bootstrap Snippets",
 		"Unicode Character Highlighter",
-		"VCS Gutter",
 		"WordHighlight",
 		"Wrap Plus"
 	]
