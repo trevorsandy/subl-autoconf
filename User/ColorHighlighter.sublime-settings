@@ -1,5 +1,6 @@
 {
-	"ha_style": "outlined",
+	"enabled": true,
+	"ha_style": "underlined_solid",
 	"highlight_all": true,
-	"style": "outlined"
+	"style": "default"
 }

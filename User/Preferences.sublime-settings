@@ -22,7 +22,7 @@
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Theme - Nexus/Nexus.tmTheme",
+	"color_scheme": "Packages/User/Nexus (SL).tmTheme",
 	"default_encoding": "UTF-8",
 	"detect_indentation": true,
 	"detect_slow_plugins": false,
@@ -64,9 +64,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Pretty JSON",
-		"Markdown Extended"
+		"Vintage"
 	],
 	"open_files_in_new_window": false,
 	"rulers":
@@ -81,5 +79,6 @@
 	"tab_size": 2,
 	"theme": "Nexus.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false
 }
