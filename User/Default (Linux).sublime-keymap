@@ -2,6 +2,9 @@
   // Fix key bindings
   { "keys": ["ctrl+alt+p"], "command": "insert", "args": {"characters": "&"} },
   { "keys": ["ctrl+alt+x"], "command": "insert", "args": {"characters": "}"} },
+  { "keys": ["^", "e"], "command": "insert", "args": {"characters": "ê"} },
+  { "keys": ["^", "a"], "command": "insert", "args": {"characters": "â"} },
+  { "keys": ["^", "o"], "command": "insert", "args": {"characters": "ô"} },
 
   // Comments
   { "keys": ["ctrl+9"], "command": "toggle_comment", "args": { "block": false } },
