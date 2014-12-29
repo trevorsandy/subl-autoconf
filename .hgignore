@@ -1,9 +1,9 @@
-User/Package\ Control.*
-User/ColorPicker
-User/Color Highlighter
-^(?!User/).*
-.cache
-.chback
-.sublime-project
-.sublime-workspace
-.directory
+^(?!User/)[^/]+/
+^User/Package\ Control.*
+^User/ColorPicker
+^User/Color Highlighter
+\.cache
+\.chback
+\.sublime-project
+\.sublime-workspace
+\.directory
