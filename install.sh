@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-save=$(pwd)
-
 platform='unknown'
 unamestr=`uname`
 if [[ "$unamestr" == 'Linux' ]]; then
@@ -33,10 +31,5 @@ if [ -r Packages ]; then
 fi
 
 hg clone https://bitbucket.org/efolio/sublime-text-3-config Packages
-cd Packages
 
-echo '*** Install plugin: "Theme - Nexus"'
-git clone https://github.com/EleazarCrusader/nexus-theme.git "Theme - Nexus"
-
-cd $save
 echo '*** Install complete :)'

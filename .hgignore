@@ -1,7 +1,7 @@
 User/Package\ Control.*
 User/ColorPicker
 User/Color Highlighter
-^([^U])|(U[^s])|(Us[^e])|(Use[^r])|(User[^/])
+^(?!User/).*
 .cache
 .chback
 .sublime-project
