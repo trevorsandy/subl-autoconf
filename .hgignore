@@ -1,11 +1,9 @@
 User/Package\ Control.*
 User/ColorPicker
 User/Color Highlighter
-Theme - Nexus
-SublimeCodeIntel
-PyV8
 ^([^U])|(U[^s])|(Us[^e])|(Use[^r])|(User[^/])
 .cache
 .chback
 .sublime-project
 .sublime-workspace
+.directory

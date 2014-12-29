@@ -1,4 +1,13 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2",
+		"ssl-linux"
+	],
 	"installed_packages":
 	[
 		"AngularJS",
@@ -14,7 +23,7 @@
 		"Filter Lines",
 		"Jade",
 		"JavaScriptNext - ES6 Syntax",
-		"Markdown Extended",
+		"MarkdownEditing",
 		"Mocha Snippets",
 		"Monokai Extended",
 		"Package Control",
@@ -29,6 +38,7 @@
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
 		"SyncedSideBar",
+		"Theme - Nexus",
 		"TidyTabs",
 		"ToggleQuotes",
 		"TrailingSpaces",
