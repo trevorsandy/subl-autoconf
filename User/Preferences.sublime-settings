@@ -1,93 +1,94 @@
 {
-  "auto_indent": true,
-  "binary_file_patterns":
-  [
-    "bower_components/*",
-    "node_modules/*",
-    "dist/*",
-    "public/*",
-    "*.jpg",
-    "*.jpeg",
-    "*.png",
-    "*.gif",
-    "*.ttf",
-    "*.tga",
-    "*.dds",
-    "*.ico",
-    "*.eot",
-    "*.pdf",
-    "*.swf",
-    "*.jar",
-    "*.zip"
-  ],
-  "indent_guide_options":
-  [
-    "draw_normal",
-    "draw_active"
-  ],
-  "bold_folder_labels": true,
-  "caret_style": "phase",
-  "color_scheme": "Packages/User/SublimeLinter/Nexus (SL).tmTheme",
-  "default_encoding": "UTF-8",
-  "detect_indentation": true,
-  "detect_slow_plugins": false,
-  "draw_white_space": "selection",
-  "ensure_newline_at_eof_on_save": true,
-  "file_exclude_patterns":
-  [
-    "*.pyc",
-    "*.pyo",
-    "*.exe",
-    "*.dll",
-    "*.obj",
-    "*.o",
-    "*.a",
-    "*.lib",
-    "*.so",
-    "*.dylib",
-    "*.ncb",
-    "*.sdf",
-    "*.suo",
-    "*.pdb",
-    "*.idb",
-    ".DS_Store",
-    "*.class",
-    "*.psd",
-    "*.db"
-  ],
-  "folder_exclude_patterns":
-  [
-    ".svn",
-    ".git",
-    ".hg",
-    "CVS",
-    ".bundle",
-    ".sass-cache"
-  ],
-  "font_size": 11,
-  "highlight_line": true,
-  "highlight_modified_tabs": true,
-  "ignored_packages":
-  [
-    "Markdown"
-  ],
-  "index_exclude_patterns":
-  [
-    "*.log"
-  ],
-  "open_files_in_new_window": false,
-  "rulers":
-  [
-    80,
-    120
-  ],
-  "save_on_focus_lost": true,
-  "scroll_speed": 1.4,
-  "shift_tab_unindent": true,
-  "show_tab_close_buttons": false,
-  "tab_size": 2,
-  "theme": "Nexus.sublime-theme",
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true,
-  "update_check": false
+	"auto_indent": true,
+	"binary_file_patterns":
+	[
+		"bower_components/*",
+		"node_modules/*",
+		"dist/*",
+		"public/*",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/SublimeLinter/Nexus (SL).tmTheme",
+	"default_encoding": "UTF-8",
+	"detect_indentation": true,
+	"detect_slow_plugins": false,
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".bundle",
+		".sass-cache"
+	],
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Markdown"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log"
+	],
+	"open_files_in_new_window": false,
+	"rulers":
+	[
+		80,
+		120
+	],
+	"save_on_focus_lost": true,
+	"scroll_speed": 1.4,
+	"shift_tab_unindent": true,
+	"show_tab_close_buttons": false,
+	"tab_size": 2,
+	"theme": "Nexus.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false
 }
