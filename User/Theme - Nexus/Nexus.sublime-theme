@@ -1,0 +1,50 @@
+[
+  {
+    "class": "icon_folder",
+    "layer0.texture": "User/Theme - Nexus/assets/folder/folder-closed.png",
+    "content_margin": [8,8]
+  },
+  {
+    "class": "icon_folder",
+    "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
+    "layer0.texture": "User/Theme - Nexus/assets/folder/folder-closed-hover.png"
+  },
+  {
+    "class": "icon_folder",
+    "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
+    "layer0.texture": "User/Theme - Nexus/assets/folder/folder-closed-selected.png"
+  },
+  {
+    "class": "icon_folder",
+    "parents":
+    [{ "class": "tree_row", "attributes": ["hover", "expanded"] }],
+    "layer0.texture": "User/Theme - Nexus/assets/folder/folder-open-hover.png"
+  },
+  {
+    "class": "icon_folder",
+    "parents":
+    [{ "class": "tree_row", "attributes": ["selected", "expanded"] }],
+    "layer0.texture": "User/Theme - Nexus/assets/folder/folder-open-selected.png"
+  },
+  {
+    "class": "disclosure_button_control",
+    "content_margin": [8, 8],
+    "layer0.texture": "User/Theme - Nexus/assets/folder/group-closed.png",
+  },
+  {
+    "class": "disclosure_button_control",
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "layer0.texture": "User/Theme - Nexus/assets/folder/group-closed-hover.png"
+  },
+  {
+    "class": "disclosure_button_control",
+    "attributes": ["expanded"],
+    "layer0.texture": "User/Theme - Nexus/assets/folder/group-open.png"
+  },
+  {
+    "class": "disclosure_button_control",
+    "attributes": ["expanded"],
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "layer0.texture": "User/Theme - Nexus/assets/folder/group-open-hover.png"
+  },
+]
