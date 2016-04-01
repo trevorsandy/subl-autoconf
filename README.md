@@ -5,6 +5,7 @@ This configuration uses the [Nexus theme](https://github.com/EleazarCrusader/nex
 ## Prerequisites
 
 You need:
+
 * Git
 * Mercurial
 * Sublime Text 2/3 :) _¡ Install script not tested on Windows for Sublime Text 2 !_
