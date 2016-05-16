@@ -1,7 +1,0 @@
-<snippet>
-  <content><![CDATA[
-console.log.apply(console, arguments);
-]]></content>
-  <scope>source.js</scope>
-  <tabTrigger>cla</tabTrigger>
-</snippet>
