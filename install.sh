@@ -32,7 +32,7 @@ if [ -d Packages ]; then
   mv Packages Packages.bck
 fi
 
-hg clone https://bitbucket.org/efolio/sublime-text-3-config Packages
+hg clone https://bitbucket.org/ngoudry/st3-conf Packages
 
 PACKAGE_CTRL_DEST='Installed Packages/Package Control.sublime-package'
 if [ ! -f "$PACKAGE_CTRL_DEST" ]; then
