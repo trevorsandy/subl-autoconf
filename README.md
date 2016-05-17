@@ -18,11 +18,11 @@ You can install this via the command line with either `curl` or `wget`.
 
 #### via `curl`:
 
-`curl -L "https://bitbucket.org/efolio/sublime-text-3-config/raw/default/install.sh" | bash -s 3`
+`curl -L "https://bitbucket.org/ngoudry/st3-conf/raw/default/install.sh" | bash -s 3`
 
 #### via `wget`:
 
-`wget --no-check-certificate "https://bitbucket.org/efolio/sublime-text-3-config/raw/default/install.sh" -O - | bash -s 3`
+`wget --no-check-certificate "https://bitbucket.org/ngoudry/st3-conf/raw/default/install.sh" -O - | bash -s 3`
 
 You can replace the `bash -s 3` by `bash -s 2` in the install command if you are using Sublime Text 2 and not Sublime Text 3 ;)
 
