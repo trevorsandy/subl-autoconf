@@ -38,7 +38,7 @@ If you're using command-line, you can add a parameter matching Sublime Text vers
 * Add Babel Snippets
 * Remove JavaScript Next
 * If Node.js and `npm` are installed :
-** Install `standard`
-** Install `standard-format`
-** Install and configure `tern`
+    * Install `standard`
+    * Install `standard-format`
+    * Install and configure `tern`
 * Warn user about `nvm` and `zsh`
