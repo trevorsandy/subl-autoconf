@@ -31,3 +31,14 @@ You can replace the `bash -s 3` by `bash -s 2` in the install command if you are
 Clone this repository anywhere, then simply launch `install.vbs` by double-click or from command line with `cscript install.vbs`.
 
 If you're using command-line, you can add a parameter matching Sublime Text version you are targetting, by default it will target version 3.
+
+## TODOS
+
+* Add AutoFileName to Packages
+* Add Babel Snippets
+* Remove JavaScript Next
+* If Node.js and `npm` are installed :
+** Install `standard`
+** Install `standard-format`
+** Install and configure `tern`
+* Warn user about `nvm` and `zsh`
