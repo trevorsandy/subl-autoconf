@@ -1,6 +1,7 @@
 # Sublime text 2/3 configuration
 
 This is a great and clean Sublime Text configuration that will automatically install the following packages, aside Package Control:
+
 * [AdvancedNewFile](https://packagecontrol.io/packages/AdvancedNewFile)
 * [Auto Semi-Colon](https://packagecontrol.io/packages/Auto%20Semi-Colon)
 * [AutoFileName](https://packagecontrol.io/packages/AutoFileName)
@@ -40,6 +41,7 @@ This is a great and clean Sublime Text configuration that will automatically ins
 This configuration uses the [Nexus Theme](https://github.com/EleazarCrusader/nexus-theme), the [standardJS](http://standardjs.com/index.html) code style and the [tern](http://ternjs.net/) JavaScript code-analysis engine.
 
 The install script will try to install the following npm packages if it can find the `npm` command:
+
 * `standard`
 * `standard-format`
 
