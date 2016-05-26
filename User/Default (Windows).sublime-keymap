@@ -2,6 +2,7 @@
   // Fix key bindings
   { "keys": ["ctrl+alt+p"], "command": "insert", "args": {"characters": "&"} },
   { "keys": ["ctrl+alt+x"], "command": "insert", "args": {"characters": "}"} },
+  { "keys": ["ctrl+alt+y"], "command": "insert", "args": {"characters": "{"} },
 
   // Comments
   { "keys": ["ctrl+9"], "command": "toggle_comment", "args": { "block": false } },
