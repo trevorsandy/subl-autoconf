@@ -194,7 +194,7 @@ Else
 
   Dim installCommand
 
-  installCommand = "npm i -g standard standard-format"
+  installCommand = "npm i -g standard --fix"
 
   If npm Then
     Dim installExtraPkg
@@ -209,9 +209,8 @@ Else
       WScript.Echo "npm is currently installing needed packages, it can be long, so please wait! I'll tell you when it's done ;)"
       sh.run installCommand, 0, True
       WScript.Echo
-      WScript.Echo "The following npm packages should have been installed:"
-      WScript.Echo "- standard"
-      WScript.Echo "- standard-format"
+      WScript.Echo "The following npm package should have been installed:"
+      WScript.Echo "- standard --fix"
       WScript.Echo
       WScript.Echo "However, if for some reason they haven't been installed, you can install them manually with the following command: " & installCommand
       WScript.Echo
