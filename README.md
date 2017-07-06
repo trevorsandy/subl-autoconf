@@ -40,10 +40,9 @@ This is a great and clean Sublime Text configuration that will automatically ins
 
 This configuration uses the [Nexus Theme](https://github.com/EleazarCrusader/nexus-theme), the [standardJS](http://standardjs.com/index.html) code style and the [tern](http://ternjs.net/) JavaScript code-analysis engine.
 
-The install script will try to install the following npm packages if it can find the `npm` command:
+The install script will try to install the following npm package if it can find the `npm` command:
 
-* `standard`
-* `standard-format`
+* `standard --fix`
 
 It will also install tern and auto-configure it!
 
@@ -51,25 +50,31 @@ It will also install tern and auto-configure it!
 
 You need:
 
-* Git
-* Mercurial
-* Sublime Text 2/3 :)
+* Git                   https://git-scm.com
+* Node.js/npm           https://nodejs.org - optional
+* Sublime Text 2/3 :)   https://www.sublimetext.com/3
+* wget/curl             https://www.gnu.org/software/wget https://curl.haxx.se
 
 ## Install
 
-### Linux
+### Linux / MacOS
 
 You can install this via the command line with either `curl` or `wget`.
 
 #### via `curl`:
 
-`curl -L "https://bitbucket.org/ngoudry/st3-conf/raw/default/install.sh" | bash -s 3`
+`curl -L "https://raw.githubusercontent.com/nicolas-goudry/subl-autoconf/master/install.sh" | bash -s 3`
 
 #### via `wget`:
 
-`wget --no-check-certificate "https://bitbucket.org/ngoudry/st3-conf/raw/default/install.sh" -O - | bash -s 3`
+`wget --no-check-certificate "https://raw.githubusercontent.com/nicolas-goudry/subl-autoconf/master/install.sh" -O - | bash -s 3`
 
 You can replace the `bash -s 3` by `bash -s 2` in the install command if you are using Sublime Text 2 and not Sublime Text 3 ;)
+
+If running from a cloned repository simply run:
+
+For Sublime Text 3 `./install.sh`
+For Sublime Text 2 `./install.sh 2`
 
 ### Windows
 
@@ -77,7 +82,12 @@ Clone this repository anywhere, then simply launch `install.vbs` by double-click
 
 If you're using command-line, you can add a parameter matching Sublime Text version you are targeting, by default it will target version 3.
 
-## TODOS
+### Post Install
 
-* Better error handling
-* Update script for Linux / Mac
+After installation, completely close and relaunch (2x) Sublime Text to finish automatic configuration.
+
+You can view the configuration status in the console accessible at the bottom left application window.
+
+
+
+
